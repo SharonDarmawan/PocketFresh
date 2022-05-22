@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".how_to_select">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:text="SELECT"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:id="@+id/select_list1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/select"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:text=" • Bananas are available fresh, frozen and dried for good nutrition and convenience. "
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:id="@+id/select_list2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/select_list1"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:text=" • If selecting fresh, choose bananas without cuts."
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:id="@+id/select_list3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/select_list2"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:text=" • They should be firm, without bruises."
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:id="@+id/select_list4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/select_list3"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:text=" • If you would like your bananas to stick around a little longer, pick greener bananas."
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:id="@+id/select_list5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/select_list4"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:text=" • Bananas ripen after harvest, so the greener they are-the longer they have to ripen on the counter.  "
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_regular"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".description">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/season"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:text="SEASON"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:id="@+id/season_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/season"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:text="All year round"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:id="@+id/nutrients"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/season_desc"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp"
+            android:text="NUTRIENTS"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:id="@+id/nutrients_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nutrients"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:text="Fat free, Saturated fat free, Cholesterol free, Sodium free, Good source of fiber, Good source of vitamin C, Good source of potassium"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:id="@+id/store"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nutrients_desc"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp"
+            android:text="STORE"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:id="@+id/store_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/store"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:text="Store unripe bananas at room temperature. Store ripe bananas in refrigerator for up to two weeks; skin may turn black, but the inside is fine!  "
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <TextView
+            android:id="@+id/recommended_items"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/store_desc"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp"
+            android:text="RECOMMENDED ITEMS"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <LinearLayout
+            android:id="@+id/recommended_items_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                app:backgroundTint="@null"
+                android:id="@+id/item1"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/rounded_corner_item_button"
+                android:drawableLeft="@drawable/banana_squash"
+                android:text="Banana Squash\nAll year round"
+                android:textAllCaps="false"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_regular"
+                android:drawableRight="@drawable/front_arrow"/>
+
+            <Button
+                android:layout_marginTop="10dp"
+                app:backgroundTint="@null"
+                android:id="@+id/item2"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/rounded_corner_item_button"
+                android:drawableLeft="@drawable/red_banana"
+                android:text="Red Banana\nAll year round"
+                android:textAllCaps="false"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppins_regular"
+                android:drawableRight="@drawable/front_arrow"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
