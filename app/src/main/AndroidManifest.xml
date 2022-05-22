@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pocketfresh">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PocketFresh">
+        <activity
+            android:name=".NavBar"
+            android:exported="false"
+            android:label="@string/title_activity_nav_bar" />
+        <activity
+            android:name=".home_screen"
+            android:exported="false" />
+        <activity
+            android:name=".sign_up_screen"
+            android:exported="false" />
+        <activity
+            android:name=".launch_screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".search_screen"
+            android:exported="false" />
+        <activity
+            android:name=".ItemScreen"
+            android:exported="false" />
+        <activity
+            android:name=".fruitsInSeason"
+            android:exported="false" />
+        <activity
+            android:name=".vegetablesInSeason"
+            android:exported="false" />
+    </application>
+
+</manifest>
